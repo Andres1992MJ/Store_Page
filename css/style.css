@@ -1,0 +1,28 @@
+:root {
+    --primario: #9C27B0;
+    --primarioOscuro: #89119D;
+    --secundario: #FFCE00;
+    --secundarioOscuro: rgb(233, 187, 2);
+    --blanco: #FFF;
+    --negro: #000;
+
+    --fuentePrincipal: 'Berkshire Swash', cursive;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    /* background-image: linear-gradient(to top, rgb(103, 102, 109) 0%,rgb(183, 183, 187) 100%); */
+    background-color: #e9ecef;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    height: 100%;
+    /* min-height: 1000px; */
+}
