@@ -5,13 +5,14 @@
     --secundarioOscuro: rgb(233, 187, 2);
     --blanco: #FFF;
     --negro: #000;
-
     --fuentePrincipal: 'Berkshire Swash', cursive;
 }
 
 html {
     box-sizing: border-box;
     font-size: 62.5%; 
+    min-height: 100%;
+    position: relative;
 }
 
 *, *:before, *:after {
@@ -21,20 +22,15 @@ a {
     text-decoration: none;
     text-overflow: ellipsis;
 }
-
 a:hover{
     color:#6b6a6d;
 }
-
-body {
-    /* background-image: linear-gradient(to top, rgb(103, 102, 109) 0%,rgb(183, 183, 187) 100%); */
+body {    
     background-color:var(--primario);
     font-size: 1.6rem;
     line-height: 1.5;
-    height: 100%;
-    /* min-height: 1000px; */
+    height: 100%;    
 }
-
 h1 {
     font-size: 4rem;
 }
@@ -53,11 +49,6 @@ a{
     font-family: var(--fuentePrincipal);
     color: var(--secundario);
 }
-
-.navbar{
-    /* position: relative !important; */
-}
-
 .producto__nombre {
     font-size: 3rem;
 }
@@ -72,17 +63,15 @@ a{
     text-align: center;
     line-height: 1;
 }
-
 .producto__imagenn{
     background-image: url(/img/grafico1.jpg);
     background-size:contain;
     background-repeat: no-repeat;
 }
-
 .album{
     max-width: 100rem;
-
 }
+
 
 
 
